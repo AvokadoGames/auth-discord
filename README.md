@@ -1,4 +1,4 @@
-# Discord Login by FriendsOfFlarum
+# Discord Login by AvokadoGames
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg) [![Latest Stable Version](https://img.shields.io/packagist/v/fof/auth-discord.svg)](https://packagist.org/packages/fof/auth-discord)
 
