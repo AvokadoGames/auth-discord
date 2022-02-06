@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of fof/auth-discord.
+ * This file is part of avokadogames/auth-discord.
  *
  * Copyright (c) 2019 FriendsOfFlarum.
  *
@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace FoF\AuthDiscord;
+namespace AvokadoGames\AuthDiscord;
 
 use Flarum\Extend;
-use FoF\AuthDiscord\Controllers\DiscordAuthController;
+use AvokadoGames\AuthDiscord\Controllers\DiscordAuthController;
 
 return [
     (new Extend\Frontend('forum'))
