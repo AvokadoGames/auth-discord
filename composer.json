@@ -1,5 +1,5 @@
 {
-  "name": "fof/auth-discord",
+  "name": "avokadogames/auth-discord",
   "description": "Allow users to log in with Discord",
   "keywords": [
     "flarum"
@@ -20,7 +20,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "FoF\\AuthDiscord\\": "src/"
+      "AvokadoGames\\AuthDiscord\\": "src/"
     }
   },
   "extra": {
