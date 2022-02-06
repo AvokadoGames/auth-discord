@@ -1,5 +1,5 @@
 {
-  "name": "ags/auth-discord",
+  "name": "AvokadoGames/auth-discord",
   "description": "Allow users to log in with Discord",
   "keywords": [
     "flarum"
