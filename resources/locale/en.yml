@@ -1,4 +1,4 @@
-fof-auth-discord:
+avokadogames-auth-discord:
   admin:
     discord_settings:
       client_id_label: Client ID
