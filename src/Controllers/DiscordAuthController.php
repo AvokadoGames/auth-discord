@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of fof/auth-discord.
+ * This file is part of avokadogames/auth-discord.
  *
  * Copyright (c) 2019 FriendsOfFlarum.
  *
@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace FoF\AuthDiscord\Controllers;
+namespace AvokadoGames\AuthDiscord\Controllers;
 
 use Flarum\Forum\Auth\Registration;
-use FoF\Extend\Controllers\AbstractOAuthController;
+use AvokadoGames\Extend\Controllers\AbstractOAuthController;
 use League\OAuth2\Client\Provider\AbstractProvider;
 use Wohali\OAuth2\Client\Provider\Discord;
 use Wohali\OAuth2\Client\Provider\DiscordResourceOwner;
@@ -33,8 +33,8 @@ class DiscordAuthController extends AbstractOAuthController
     protected function getProvider(string $redirectUri): AbstractProvider
     {
         return new Discord([
-            'clientId'     => $this->settings->get('fof-auth-discord.client_id'),
-            'clientSecret' => $this->settings->get('fof-auth-discord.client_secret'),
+            'clientId'     => $this->settings->get('avokadogames-auth-discord.client_id'),
+            'clientSecret' => $this->settings->get('avokadogames-auth-discord.client_secret'),
             'redirectUri'  => $redirectUri,
         ]);
     }
