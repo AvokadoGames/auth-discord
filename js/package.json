@@ -1,5 +1,5 @@
 {
-  "name": "@fof/auth-discord",
+  "name": "@avokadogames/auth-discord",
   "version": "0.0.0",
   "private": true,
   "dependencies": {
